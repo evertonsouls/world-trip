@@ -1,10 +1,11 @@
-import { Flex, Container, Img } from '@chakra-ui/react'
+import { Flex, Img } from '@chakra-ui/react'
+import { Container } from './Container'
 
 export function Header() {
   return (
-    <Flex>
-      <Container maxW="1160px" w="100%" align="center">
-        <Img src="/images/logo.svg" alt="worldtrip" />
+    <Flex minH="100px" align="center">
+      <Container flexDir="row" justify="center" >
+        <Img src="/images/logo.svg" alt="Worldtrip" />
       </Container>
     </Flex>
   )
