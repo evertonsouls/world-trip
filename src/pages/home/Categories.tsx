@@ -1,4 +1,4 @@
-import { Flex, Box, Img, Text, Divider } from '@chakra-ui/react'
+import { Flex, Box, Img, Text } from '@chakra-ui/react'
 import { Container } from '../../components/Container'
 
 export function Categories() {
@@ -31,9 +31,7 @@ export function Categories() {
         </Flex>
       </Flex>
 
-      <Box maxW="90px" mt="5rem" h="2px">
-        <Divider color="gray.600" border="2px" />
-      </Box>      
+      <Box w='90px' height='2px' m='5rem auto 0' background="gray.600" />
     </Container>
   )
 }
